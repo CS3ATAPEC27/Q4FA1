@@ -1,0 +1,181 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+			<meta name = "author" content = "akeelah"
+			<meta name = "keywords" content = "HTML, CSS, JavaScript">
+			<meta name = "revised" content = "04/04/24">
+	</head>
+	<body>		
+	<div class="container">
+		<div class="box"></div>
+		<div class="box overlay"></div>
+    <div class="another-container"> 
+	
+  </div>
+	</div>
+  
+  <div class="input"> 
+	<p> Sign Up </p>
+    <input class="USN" type="text" placeholder="Enter Username" name="username" required>
+	<br>
+   
+    <input class="PSN" type="password" placeholder="Enter Password" name="psw" required>
+	<br>
+	<label>
+      <input type="checkbox" checked="checked" name="confirm" style="margin-bottom:15px"> confirm password
+    </label>
+	<br>
+	
+    <input class="EML" type="email" placeholder="Enter Email" name="email" required>
+	<br>
+	<input class="ADR" type="email" placeholder="Enter your address" name="adress" required>
+	<br>
+	<input class="INTR" type="email" placeholder="Enter your interests" name="interests" required>
+		
+    <div class="clearfix">
+      <button type="submit" class="submit" onclick="makeAcc()">Submit</button>
+	  <button type="reset" class="reset" onclick="makeAcc()">Reset</button>
+    </div>
+	
+	</div>
+	</body>
+	<style>
+	
+	label {
+	font-size: 14px;
+	top: 80%;
+	left: 42%;
+	position: absolute;
+	z-index: 10;
+	
+	}
+	
+	p {
+	position: absolute;
+	left: -15%;
+	color: Black;
+	width: 480px;
+	height: 270px;
+	}
+	
+	::placeholder {
+	color: #688F4E;
+	padding-left: 20px;
+	}
+	
+	.input {
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	z-index: 10;
+	text-align: center;
+	font-size: 28px;
+	}
+	
+	body {
+	width: 1000px;
+	height: 800px;	
+	background-color: #80C492;
+	}
+	
+	.USN {
+	top: 70px;
+	position: relative;
+	left: 40%;
+	width: 230px;
+	height: 30px;
+	border-radius: 15px;
+	border-color: #2B463C;
+	}
+	
+	.PSN {
+	top: 75px;
+	position: relative;
+	left: 40%;
+	width: 230px;
+	height: 30px;
+	border-radius: 15px;
+	border-color: #2B463C;
+	}
+	
+	.EML {
+	top: 50px;
+	position: relative;
+	left: 40%;
+	width: 230px;
+	height: 30px;
+	border-radius: 15px;
+	border-color: #2B463C;
+	}
+	
+	.ADR {
+	top: 70px;
+	position: relative;
+	left: 40%;
+	width: 230px;
+	height: 30px;
+	border-radius: 15px;
+	border-color: #2B463C;
+	}
+	
+	.INTR {
+	top: 75px;
+	position: relative;
+	left: 40%;
+	width: 230px;
+	height: 30px;
+	border-radius: 15px;
+	border-color: #2B463C;
+	}
+	
+	.submit {
+	top: 90px;
+	position: relative;
+	left: 75px;
+	color: #688F4E;
+	border-color: #2B463C;
+	border-radius: 15px;
+	}
+	
+	.reset {
+	top: 90px;
+	position: relative;
+	left: 90px;
+	color: #688F4E;
+	border-color: #2B463C;
+	border-radius: 15px;
+	}
+
+	.box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	}
+
+	.container {
+		width: 900px;
+		height: 650px;
+		position: relative;
+		left: 18%;
+		top: 10%;
+		background-image: url('http://www.pixelstalk.net/wp-content/uploads/2016/06/HD-Nature-Backgrounds-Images-Download.jpg');
+		background-repeat: no-repeat;	
+		background-size: 900px 650px;
+		box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+	}
+	
+	.another-container {
+		width: 540px;
+		height: 450px;
+		left: 23%;
+		top: 20%;
+		position: relative;
+		background-color: #CCCCCC;
+		opacity: 0.6;
+		z-index: 5;
+	}
+	</style>
+	<script>
+	</script>
+</html>
